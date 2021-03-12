@@ -17,3 +17,5 @@ about.innerText = 'ABOUT';
 ul.appendChild(home);
 ul.appendChild(menu);
 ul.appendChild(about);
+
+navbar.appendChild(ul);
