@@ -7,3 +7,4 @@ import footer from './footer';
 const content = document.querySelector('#content');
 
 content.appendChild(navbar);
+content.appendChild(footer);
