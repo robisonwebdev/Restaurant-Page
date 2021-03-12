@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
 #linkContainer {
     display: flex;
     flex-direction: row;
