@@ -13,3 +13,7 @@ about.setAttribute('id', 'aboutLink');
 home.innerText = 'HOME';
 menu.innerText = 'MENU';
 about.innerText = 'ABOUT';
+
+ul.appendChild(home);
+ul.appendChild(menu);
+ul.appendChild(about);
