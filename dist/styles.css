@@ -1,0 +1,9 @@
+#linkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    list-style-type: none;
+}
