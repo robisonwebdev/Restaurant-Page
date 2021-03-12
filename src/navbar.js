@@ -19,3 +19,5 @@ ul.appendChild(menu);
 ul.appendChild(about);
 
 navbar.appendChild(ul);
+
+export default navbar;
