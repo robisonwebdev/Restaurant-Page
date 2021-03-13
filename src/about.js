@@ -1,6 +1,6 @@
 const about = document.createElement('div');
 const image = document.createElement('img');
-const sectionTitle = createElement('h2');
+const sectionTitle = document.createElement('h2');
 const info = document.createElement('p');
 
 about.setAttribute('id', 'about');
