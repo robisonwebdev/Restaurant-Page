@@ -13,6 +13,11 @@
     width: 100vw;
 }
 
+#navbar {
+    height: 10vh;
+    width: auto;
+}
+
 #linkContainer {
     display: flex;
     flex-direction: row;
