@@ -13,7 +13,7 @@
     width: 100vw;
 }
 
-#navbar {
+#navbar, #footer {
     height: 10vh;
     width: auto;
 }
