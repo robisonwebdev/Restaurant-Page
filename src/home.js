@@ -4,6 +4,7 @@ const description = document.createElement('p');
 const menuBtn = document.createElement('button');
 
 home.setAttribute('id', 'home');
+home.setAttribute('class', 'containerSections');
 image.setAttribute('class', 'redBresaola');
 image.setAttribute('src', './images/redBresaola1.png');
 image.setAttribute('alt', 'Red Bresaola Title with red cow head below');
