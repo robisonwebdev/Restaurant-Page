@@ -38,6 +38,8 @@
     flex-direction: column;
     align-items: center;
 
+    border-top: 3px solid rgba(141,35,15,255);
+    border-bottom: 3px solid rgba(141,35,15,255);
     height: 100%;
     width: 100%;
 }
@@ -61,6 +63,7 @@
 
 #home {
     display: flex;
+    justify-content: center;
 }
 
 #menuBtn {
@@ -69,6 +72,7 @@
     color: white;
     font-size: 18px;
     height: 50px;
+    margin-top: 35px;
     width: 100px;
 }
 
