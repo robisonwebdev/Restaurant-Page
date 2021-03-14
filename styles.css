@@ -42,7 +42,7 @@
     width: 100%;
 }
 
-#about {
+.containerSections {
     display: none;
     flex-direction: column;
     align-items: center;
