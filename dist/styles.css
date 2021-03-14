@@ -43,16 +43,18 @@
 }
 
 #about {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: space-between; */
     gap: 15px;
 
     height: 100%;
     width: 65%;
 }
 
-#redBresaola {
+.redBresaola {
+    padding-bottom: 50px;
+    padding-top: 50px;
     width: 350px;
 }
