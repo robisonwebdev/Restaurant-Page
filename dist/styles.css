@@ -43,7 +43,7 @@
 }
 
 .containerSections {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     /* justify-content: space-between; */
@@ -57,4 +57,21 @@
     padding-bottom: 50px;
     padding-top: 50px;
     width: 350px;
+}
+
+#home {
+    display: flex;
+}
+
+#menuBtn {
+    background-color: rgb(112, 24, 24);
+    border: none;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
+}
+
+#about {
+    display: none;
 }
