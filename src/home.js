@@ -10,7 +10,7 @@ image.setAttribute('src', './images/redBresaola1.png');
 image.setAttribute('alt', 'Red Bresaola Title with red cow head below');
 menuBtn.setAttribute('id', 'menuBtn');
 
-description.innerText = 'Orci nulla pellentesque dignissim enim sit amet. Scelerisque varius morbi enim nunc faucibus a pellentesque sit.';
+description.innerText = 'Scelerisque varius morbi enim nunc faucibus a pellentesque sit.';
 menuBtn.innerText = 'Menu';
 
 home.appendChild(image);
