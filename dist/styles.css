@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+:root {
+    --red: rgb(112, 24, 24);
+    --black: #1b1717;
+    --offWhite: #eeebdd;
+    --white: white;
+}
+
 #backgroundImage {
     filter: brightness(25%);
     overflow: hidden;
@@ -28,8 +35,8 @@
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(112, 24, 24);
-    color: #eeebdd;
+    background-color: var(--red);
+    color: var(--offWhite);
     height: 10vh;
     width: 100%;
     z-index: 10;
@@ -50,8 +57,8 @@
     flex-direction: column;
     align-items: center;
 
-    border-top: 3px solid #1b1717;
-    border-bottom: 3px solid #1b1717;
+    border-top: 3px solid var(--black);
+    border-bottom: 3px solid var(--black);
     height: 100%;
     width: 100%;
     z-index: 10;
@@ -80,9 +87,9 @@
 }
 
 #menuBtn {
-    background-color: rgb(112, 24, 24);
+    background-color: var(--red);
     border: none;
-    color: white;
+    color: var(--white);
     font-size: 18px;
     height: 50px;
     margin-top: 35px;
@@ -91,7 +98,7 @@
 
 #about {
     display: flex;
-    background-color: white;
+    background-color: var(--white);
     text-align: center;
 }
 
