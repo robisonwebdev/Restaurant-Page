@@ -52,6 +52,10 @@
     list-style-type: none;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
 #content {
     display: flex;
     flex-direction: column;
@@ -82,13 +86,13 @@
 }
 
 #home {
-    display: none;
+    display: flex;
     justify-content: center;
 }
 
 #menuBtn {
     background-color: var(--red);
-    border: none;
+    border: 2px solid var(--black);
     color: var(--white);
     font-size: 18px;
     height: 50px;
@@ -97,7 +101,7 @@
 }
 
 #about {
-    display: flex;
+    display: none;
     background-color: var(--white);
     text-align: center;
 }
