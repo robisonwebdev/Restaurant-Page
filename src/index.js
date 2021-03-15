@@ -1,9 +1,11 @@
+import backgroundImage from './backgroundImage';
 import navbar from './navbar';
-import container from './container';
+import content from './content';
 import footer from './footer';
 
-const content = document.querySelector('#content');
+const container = document.querySelector('#container');
 
-content.appendChild(navbar);
-content.appendChild(container);
-content.appendChild(footer);
+container.appendChild(backgroundImage);
+container.appendChild(navbar);
+container.appendChild(content);
+container.appendChild(footer);
