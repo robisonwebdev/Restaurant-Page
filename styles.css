@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: space-between;
 
+    background-color: var(--white);
     height: 100vh;
     width: 100vw;
 }
@@ -104,8 +105,5 @@ li:hover {
     display: none;
     background-color: var(--white);
     text-align: center;
-}
-
-#aboutContent {
     width: 65%;
 }
