@@ -4,6 +4,7 @@
 }
 
 #backgroundImage {
+    filter: brightness(25%);
     overflow: hidden;
     position: absolute;
     height: 100vh;
@@ -62,7 +63,7 @@
     gap: 15px;
 
     height: 100%;
-    width: 65%;
+    width: 100%;
 }
 
 .redBresaola {
@@ -88,5 +89,10 @@
 
 #about {
     display: flex;
+    background-color: white;
     text-align: center;
+}
+
+#aboutContent {
+    width: 65%;
 }
