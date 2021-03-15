@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+#backgroundImage {
+    overflow: hidden;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
 #content {
     display: flex;
     flex-direction: column;
@@ -21,6 +29,7 @@
 
     height: 10vh;
     width: auto;
+    z-index: 10;
 }
 
 #linkContainer {
@@ -42,6 +51,7 @@
     border-bottom: 3px solid rgba(141,35,15,255);
     height: 100%;
     width: 100%;
+    z-index: 10;
 }
 
 .containerSections {
