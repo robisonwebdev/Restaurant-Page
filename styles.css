@@ -28,8 +28,10 @@
     justify-content: center;
     align-items: center;
 
+    background-color: rgb(112, 24, 24);
+    color: #eeebdd;
     height: 10vh;
-    width: auto;
+    width: 100%;
     z-index: 10;
 }
 
@@ -48,8 +50,8 @@
     flex-direction: column;
     align-items: center;
 
-    border-top: 3px solid rgba(141,35,15,255);
-    border-bottom: 3px solid rgba(141,35,15,255);
+    border-top: 3px solid #1b1717;
+    border-bottom: 3px solid #1b1717;
     height: 100%;
     width: 100%;
     z-index: 10;
