@@ -3,7 +3,7 @@ const image = document.createElement('img');
 const sectionTitle = document.createElement('h2');
 const info = document.createElement('p');
 
-about.setAttribute('id', 'about');
+about.setAttribute('id', 'aboutContent');
 about.setAttribute('class', 'containerSections');
 image.setAttribute('class', 'redBresaola');
 image.setAttribute('src', './images/redBresaola1.png');
