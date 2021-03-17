@@ -7,7 +7,7 @@ const indexJS = (function() {
 
     container.appendChild(navbar);
     container.appendChild(content);
-    container.appendChild(footer);
+    container.appendChild(footer('David Robison', 'https://github.com/robisonwebdev'));
 
     const homeNav = document.querySelector('#homeLink');
     const menuNav = document.querySelector('#menuLink');
