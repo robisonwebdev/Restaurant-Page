@@ -12,6 +12,7 @@ const indexJS = (function() {
     const homeNav = document.querySelector('#homeLink');
     const menuNav = document.querySelector('#menuLink');
     const aboutNav = document.querySelector('#aboutLink');
+    const menuBtn = document.querySelector('#menuBtn');
     const home = document.querySelector('#home');
     const menu = document.querySelector('#menu');
     const about = document.querySelector('#about');
@@ -47,6 +48,10 @@ const indexJS = (function() {
 
     aboutNav.addEventListener('click', () => {
         aboutDisplay();
+    })
+
+    menuBtn.addEventListener('click', () => {
+        menuDisplay();
     })
 })();
 
