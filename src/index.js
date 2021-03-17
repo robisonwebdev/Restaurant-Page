@@ -7,6 +7,14 @@ const indexJS = (function() {
     const homeNav = document.querySelector('#home');
     const menuNav = document.querySelector('#menu');
     const aboutNav = document.querySelector('#about');
+
+    function homeDisplay() {
+        homeNav.classList.add('displayFlex');
+        menuNav.classList.remove('displayFlex');
+        aboutNav.classList.remove('displayFlex');
+    }
+
+    homeDisplay();
 })();
 
 // const container = document.querySelector('#container');
