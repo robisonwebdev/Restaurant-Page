@@ -1,13 +1,13 @@
 import navbar from './navbar';
 import content from './content';
-import footer from './footer';
+import developedBy from './footer';
 
 const indexJS = (function() {
     const container = document.querySelector('#container');
 
     container.appendChild(navbar);
     container.appendChild(content);
-    container.appendChild(footer('David Robison', 'https://github.com/robisonwebdev'));
+    container.appendChild(developedBy('David Robison', 'https://github.com/robisonwebdev'));
 
     const homeNav = document.querySelector('#homeLink');
     const menuNav = document.querySelector('#menuLink');
