@@ -86,7 +86,7 @@ li:hover {
     width: 350px;
 }
 
-#home {
+#homeDisplay {
     display: flex;
     justify-content: center;
 }
@@ -101,9 +101,17 @@ li:hover {
     width: 100px;
 }
 
-#about {
-    display: none;
+#menuDisplay {
+    display: flex;
+}
+
+#aboutDisplay {
+    display: flex;
     background-color: var(--white);
     text-align: center;
     width: 65%;
+}
+
+.displayFlex {
+    display: flex;
 }
