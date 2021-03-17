@@ -34,6 +34,9 @@ const indexJS = (function() {
     homeDisplay();
 
 
+    homeNav.addEventListener('click', () => {
+        homeDisplay();
+    })
 })();
 
 // const container = document.querySelector('#container');
