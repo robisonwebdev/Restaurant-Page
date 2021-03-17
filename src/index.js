@@ -41,6 +41,10 @@ const indexJS = (function() {
     menuNav.addEventListener('click', () => {
         menuDisplay();
     })
+
+    aboutNav.addEventListener('click', () => {
+        aboutDisplay();
+    })
 })();
 
 // const container = document.querySelector('#container');
