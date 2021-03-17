@@ -9,9 +9,9 @@ const indexJS = (function() {
     container.appendChild(content);
     container.appendChild(footer);
 
-    const homeNav = document.querySelector('#home');
-    const menuNav = document.querySelector('#menu');
-    const aboutNav = document.querySelector('#about');
+    const homeNav = document.querySelector('#homeLink');
+    const menuNav = document.querySelector('#menuLink');
+    const aboutNav = document.querySelector('#aboutLink');
 
     function homeDisplay() {
         homeNav.style.display = 'flex';
