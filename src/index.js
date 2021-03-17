@@ -54,9 +54,3 @@ const indexJS = (function() {
         menuDisplay();
     })
 })();
-
-// const container = document.querySelector('#container');
-
-// container.appendChild(navbar);
-// container.appendChild(content);
-// container.appendChild(footer);
