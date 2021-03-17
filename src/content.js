@@ -2,12 +2,19 @@ import home from './home';
 import menu from './menu';
 import about from './about';
 
-const content = document.createElement('div');
+const contentDiv = document.createElement('div');
+const homeDiv = document.createElement('div');
+const menuDiv = document.createElement('div');
+const aboutDiv = document.createElement('div');
 
 content.setAttribute('id', 'content');
 
-content.appendChild(home);
-// content.appendChild(menu);
-content.appendChild(about);
+homeDiv.appendChild(home);
+menuDiv.appendChild(menu('Pizza', 'Best pizza ever!', '$12'));
+aboutDiv.appendChild(about);
 
-export default content;
+contentDiv.appendChild(homeDiv);
+contentDiv.appendChild(menuDiv);
+contentDiv.appendChild(aboutDiv);
+
+export default contentDiv;
