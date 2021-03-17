@@ -19,6 +19,12 @@ const indexJS = (function() {
         aboutNav.style.display = 'none';
     }
 
+    function menuDisplay() {
+        homeNav.style.display = 'none';
+        menuNav.style.display = 'flex';
+        aboutNav.style.display = 'none';
+    }
+
     homeDisplay();
 
 
