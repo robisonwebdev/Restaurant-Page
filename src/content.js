@@ -9,7 +9,7 @@ const aboutDiv = document.createElement('div');
 
 contentDiv.setAttribute('id', 'content');
 homeDiv.setAttribute('id', 'home');
-menuDiv.setAttribute('id', 'menu');
+menuDiv.setAttribute('id', 'menuContent');
 aboutDiv.setAttribute('id', 'about');
 
 homeDiv.appendChild(home);
