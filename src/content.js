@@ -7,7 +7,7 @@ const homeDiv = document.createElement('div');
 const menuDiv = document.createElement('div');
 const aboutDiv = document.createElement('div');
 
-content.setAttribute('id', 'content');
+contentDiv.setAttribute('id', 'content');
 
 homeDiv.appendChild(home);
 menuDiv.appendChild(menu('Pizza', 'Best pizza ever!', '$12'));
