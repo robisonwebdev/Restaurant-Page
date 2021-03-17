@@ -12,23 +12,26 @@ const indexJS = (function() {
     const homeNav = document.querySelector('#homeLink');
     const menuNav = document.querySelector('#menuLink');
     const aboutNav = document.querySelector('#aboutLink');
+    const home = document.querySelector('#home');
+    const menu = document.querySelector('#menu');
+    const about = document.querySelector('#about');
 
     function homeDisplay() {
-        homeNav.style.display = 'flex';
-        menuNav.style.display = 'none';
-        aboutNav.style.display = 'none';
+        home.style.display = 'flex';
+        menu.style.display = 'none';
+        about.style.display = 'none';
     }
 
     function menuDisplay() {
-        homeNav.style.display = 'none';
-        menuNav.style.display = 'flex';
-        aboutNav.style.display = 'none';
+        home.style.display = 'none';
+        menu.style.display = 'flex';
+        about.style.display = 'none';
     }
 
     function aboutDisplay() {
-        homeNav.style.display = 'none';
-        menuNav.style.display = 'none';
-        aboutNav.style.display = 'flex';
+        home.style.display = 'none';
+        menu.style.display = 'none';
+        about.style.display = 'flex';
     }
 
     homeDisplay();
