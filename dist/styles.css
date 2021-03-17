@@ -86,7 +86,7 @@ li:hover {
     width: 350px;
 }
 
-#homeContent {
+#home {
     display: flex;
     justify-content: center;
 }
@@ -101,11 +101,11 @@ li:hover {
     width: 100px;
 }
 
-#menuContent {
+#menu {
     display: flex;
 }
 
-#aboutContent {
+#about {
     display: flex;
     background-color: var(--white);
     text-align: center;
