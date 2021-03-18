@@ -6,7 +6,7 @@ const indexJS = (function() {
     const container = document.querySelector('#container');
 
     container.appendChild(navbar);
-    container.appendChild(content);
+    container.appendChild(content());
     container.appendChild(developedBy('David Robison', 'https://github.com/robisonwebdev'));
 
     const homeNav = document.querySelector('#homeLink');
