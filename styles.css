@@ -119,14 +119,14 @@ li:hover {
     gap: 15px;
 
     text-align: center;
-    width: 500px;
+    width: 75%;
 }
 
 .borderBottom {
     border-bottom: 3px solid var(--red);
     margin-bottom: 20px;
     padding-bottom: 10px;
-    width: 275px;
+    width: 270px;
 }
 
 #about {
