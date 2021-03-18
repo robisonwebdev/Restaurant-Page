@@ -5,7 +5,7 @@ import developedBy from './footer';
 const indexJS = (function() {
     const container = document.querySelector('#container');
 
-    container.appendChild(navbar);
+    container.appendChild(navbar());
     container.appendChild(content());
     container.appendChild(developedBy('David Robison', 'https://github.com/robisonwebdev'));
 
