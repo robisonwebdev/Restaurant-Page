@@ -20,6 +20,6 @@ menuDiv.appendChild(menu('Kielbasa Jerky Laborum', ' Tenderloin sunt landjaeger 
 
 contentDiv.appendChild(home());
 contentDiv.appendChild(menuDiv);
-contentDiv.appendChild(about);
+contentDiv.appendChild(about());
 
 export default contentDiv;
