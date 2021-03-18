@@ -112,7 +112,13 @@ li:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 
+    text-align: center;
+    width: 450px;
+}
+
+.borderBottom {
     border-bottom: 3px solid var(--red);
     margin-bottom: 20px;
     padding-bottom: 10px;
