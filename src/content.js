@@ -18,7 +18,7 @@ menuDiv.appendChild(menu('Tri-tip Aliqua Salami Spareribs', 'Voluptate filet mig
 menuDiv.appendChild(menu('Shankle Chicken Frankfurter', 'Rump quis frankfurter labore pork pancetta do buffalo aute meatloaf landjaeger jerky spare ribs.', '$9'));
 menuDiv.appendChild(menu('Kielbasa Jerky Laborum', ' Tenderloin sunt landjaeger doner labore laborum bacon.', '$3'));
 
-contentDiv.appendChild(home);
+contentDiv.appendChild(home());
 contentDiv.appendChild(menuDiv);
 contentDiv.appendChild(about);
 
