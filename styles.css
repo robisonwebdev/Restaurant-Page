@@ -102,12 +102,6 @@ li:hover {
     width: 100px;
 }
 
-#menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .menuItem {
     display: flex;
     flex-direction: column;
@@ -115,7 +109,7 @@ li:hover {
     gap: 15px;
 
     text-align: center;
-    width: 450px;
+    width: 500px;
 }
 
 .borderBottom {
