@@ -107,6 +107,11 @@ li:hover {
     width: 100px;
 }
 
+#menuBtn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .menuItem {
     display: flex;
     flex-direction: column;
