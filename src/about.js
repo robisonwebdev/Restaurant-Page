@@ -1,7 +1,6 @@
 import logo from './logo';
 
 const about = document.createElement('div');
-const image = document.createElement('img');
 const sectionTitle = document.createElement('h2');
 const info = document.createElement('p');
 
