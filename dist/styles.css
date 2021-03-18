@@ -125,3 +125,13 @@ li:hover {
     text-align: center;
     width: 65%;
 }
+
+small a {
+    color: var(--offWhite);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+small a:hover {
+    text-decoration: underline;
+}
