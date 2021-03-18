@@ -8,6 +8,7 @@ const menuDiv = document.createElement('div');
 
 contentDiv.setAttribute('id', 'content');
 menuDiv.setAttribute('id', 'menu');
+menuDiv.setAttribute('class', 'containerSections');
 
 menuDiv.appendChild(logo());
 menuDiv.appendChild(menu('Picanha Porchetta Pork', 'Esse laborum id, non venison fugiat nisi cupidatat excepteur quis chislic boudin enim. Laborum qui nisi beef aliqua alcatra.', '$12'));
